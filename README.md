@@ -14,5 +14,5 @@ Python Dependencies
 - scipy (1.5.2)
 - pandas (0.25.3)
 
-##A LV-FP generation example:
+## A LV-FP generation example:
 python3 generate_bt_fps-lstm.py --model_name_or_path data-bin/smiles --checkpoint_file checkpoint_last.pt --data_name_or_path  data-bin/smiles --target_file example-smiles/example.smi --save_feature_path example-smiles/examples_lv_fp.npy
